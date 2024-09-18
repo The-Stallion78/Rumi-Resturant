@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rumi-Resturant/static/css/main.4bf7c978.css",
+    "main.js": "/Rumi-Resturant/static/js/main.a069ee04.js",
+    "static/js/453.111862b9.chunk.js": "/Rumi-Resturant/static/js/453.111862b9.chunk.js",
+    "index.html": "/Rumi-Resturant/index.html",
+    "main.4bf7c978.css.map": "/Rumi-Resturant/static/css/main.4bf7c978.css.map",
+    "main.a069ee04.js.map": "/Rumi-Resturant/static/js/main.a069ee04.js.map",
+    "453.111862b9.chunk.js.map": "/Rumi-Resturant/static/js/453.111862b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bf7c978.css",
+    "static/js/main.a069ee04.js"
+  ]
+}
