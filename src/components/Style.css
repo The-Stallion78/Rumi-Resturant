@@ -24,7 +24,7 @@
     color: #aaa;
   }
   
-  .main-card--cointainer {
+  .main-card--container {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 500px));
     grid-gap: 50px;
@@ -123,11 +123,13 @@
     border: 1px solid #aaa;
     padding: 5px 10px;
     cursor: pointer;
+    text-align: center;
   }
   
   .card-tag:hover {
     background: #aaa;
     color: black;
+    font-weight: bold;
   }
   
   .card-media {
@@ -146,7 +148,7 @@
   }
   
   @media (max-width: 998px) {
-    .main-card--cointainer {
+    .main-card--container {
       display: grid;
       grid-template-columns: repeat(1, minmax(200px, 500px));
       grid-gap: 50px;
@@ -159,6 +161,7 @@
   .navbar {
     padding-top: 50px;
     text-align: center;
+    /* border: 2px solid blue; */
   }
   
   .navbar h1 {
@@ -166,10 +169,15 @@
     text-transform: capitalize;
   }
   
+  .nav_bg1 {
+    /* border: red 2px solid; */
+  }
   /** button group styles **/
   .btn-group {
     border-radius: 1rem;
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
   }
   .btn-group__item {
     border: none;
